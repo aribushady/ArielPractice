@@ -10,7 +10,7 @@ print(sum)
 
 def total(num1, num2):
     total = num1 + num2
-    return
+    print(total)
 
 for i in range(total):
     if total > 9:
