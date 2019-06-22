@@ -10,18 +10,16 @@ print(sum)
 
 def total(num1, num2):
     total = num1 + num2
-    print(total)
+    for i in range(total):
+        if total > 9:
+            total += 2
+            print(total)
 
-for i in range(total):
-    if total > 9:
-        total += 2
-        print(total)
+        elif total < 9:
+            total -= 2
+            print(total)
 
-    elif total < 9:
-        total -= 2
-        print(total)
+        else:
+            print("Oops")
 
-    else:
-        print("Oops")
-
-total(2, 3)
+total(2, 2)
